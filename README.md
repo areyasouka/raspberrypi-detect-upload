@@ -1,8 +1,12 @@
-# Raspberry Pi Camera Parking Detector
+# Raspberry Pi Camera Detect Objects and Upload Results
 
-Periodically detect objects in image from Raspberry Pi camera and update Firebase Firestore with detected JSON data.
+Periodically detect objects in Raspberry Pi camera image and upload JSON results to Firebase Firestore.
   
-Use to check parking lot occupancy and update Firestore for Firebase website to show parking availability.
+### Use Cases
+- check parking lot occupancy and update Firestore for Firebase website to show parking availability
+- notify when people are detected
+- count cars or people over time with Firestore timeseries queries
+
 
 ### Usage
 
