@@ -3,10 +3,10 @@
 Periodically detect objects in Raspberry Pi camera image and upload JSON results to Firebase Firestore.
   
 ### Use Cases
+
 - check parking lot occupancy and update Firestore for Firebase website to show parking availability
 - notify when people are detected
 - count cars or people over time with Firestore timeseries queries
-
 
 ### Usage
 
