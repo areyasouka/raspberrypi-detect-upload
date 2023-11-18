@@ -8,6 +8,9 @@ Periodically detect objects in Raspberry Pi camera image and upload JSON results
 - notify when people are detected
 - count cars or people over time with Firestore timeseries queries
 
+<img src="https://raw.githubusercontent.com/areyasouka/raspberrypi-detect-upload/main/input/picture.jpg" alt="Raspberry Pi Camera Input Image" title="Raspberry Pi Camera Input Image" width="320">
+<img src="https://raw.githubusercontent.com/areyasouka/raspberrypi-detect-upload/main/output/results.jpg" alt="Raspberry Pi Camera Annotated Output Image" title="Raspberry Pi Camera Annotated Output Image" width="320">
+
 ### Usage
 
 ```sh
@@ -18,7 +21,7 @@ python firestoreupload.py --credentials=credentials.json --file=output/results.j
 
 ### Dependencies
 
-- Raspberry Pi, Camera, Distro: Bullseye 11
+- Raspberry Pi, Camera, Raspberry Pi OS Lite
 - https://github.com/ultralytics/ultralytics
 
 ### Update Raspberry Pi and Install Dependencies
